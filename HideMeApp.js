@@ -5,7 +5,7 @@ export default class App extends Component {
   
   fun() {
     this.setState({
-      show: !http://this.state.show
+      show: !this.state.show
     })
   }
   
