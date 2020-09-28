@@ -1,4 +1,4 @@
-export default class App extends Component {
+export default class AppClickAndHideMe extends Component {
   state = {
    show: true
   }
@@ -13,7 +13,7 @@ export default class App extends Component {
     return (
       <>
       {this.state.show ? (<h1>Hide me</h1>) :null }
-      <button onClick={()=>this.fun()}>Click</button>
+      <button onClick={()=>this.fun()}>Click and Hide me</button>
       </>
      );
   }
